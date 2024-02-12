@@ -1,27 +1,32 @@
-# React + TypeScript + Vite
+# User Company Portal Development
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
+This project aims to develop a user-friendly company portal for an AI-driven recruitment platform. Key features include authentication, profile management, a side menu for easy navigation, a basic chat interface, and a visual representation of the AI agent's recruitment workflow.
 
-Currently, two official plugins are available:
+## Key Features
+- **Signup/Login**: Secure authentication for company users.
+- **Profile Creation**: Interface for creating and editing company profiles.
+- **Side Menu Navigation**: Easy access to Homepage, Profile Creation, Chat, and Agent Workflow sections.
+- **Chat Interface**: A simple chatbot interface for user interaction.
+- **Agent Workflow Visualization**: Displays the recruitment process in defined steps (AR Start, Sourcing, Basic Matching, Exact Matching Filtering, Value Addition by AI).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technical Requirements
+- **Front-End Framework**: Built using React.
+- **Database Integration**: Supabase for data storage and retrieval.
+- **Mock Data**: Utilized to simulate the agent workflow and chat interactions.
 
-## Expanding the ESLint configuration
+## Setup and Installation
+1. **Clone the Repository**: `git clone https://github.com/tanishabhatnagar/recruity.ai.git`
+2. **Navigate to the project directory**: `cd user-portal`
+3. **Install Dependencies**: `yarn`
+4. **Environment Setup**: Ensure to set up the `.env` file with the required Supabase credentials.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Running the Application
+- **Development Mode**: `yarn dev` - Starts the development server.
+- **Build Production**: `yarn build` - Builds the app for production.
+- **Preview Production Build**: `yarn preview`
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Dependencies
+- Chakra UI.
+- Supabase for backend services and database.
+- React Router for navigation.
