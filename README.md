@@ -30,3 +30,11 @@ This project aims to develop a user-friendly company portal for an AI-driven rec
 - Chakra UI.
 - Supabase for backend services and database.
 - React Router for navigation.
+
+## Database Table Schema
+![image](https://github.com/tanishabhatnagar/recruity.ai/assets/117341805/842c839d-a10c-45a3-8997-8855aea01e47)
+![image](https://github.com/tanishabhatnagar/recruity.ai/assets/117341805/b20d93e3-20cc-4405-84a9-a80b8899e6b0)
+![image](https://github.com/tanishabhatnagar/recruity.ai/assets/117341805/bed3383e-a44c-4dba-8484-e77e569e5590)
+
+
+
